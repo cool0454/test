@@ -1,27 +1,25 @@
+div {
+  background:yellow;width:100px;border:1px solid black;
+  display:box;
+-webkit-display:box;
+  -moz-display:box;
+    -webkit-box-orient:vertical;
+    -moz-box-orient:vertical;
+}
+#box1 {
+   box-pack : start;
+  -webkit-box-pack:start;
+-moz-box-pack:start;
+}
 
-<div class="eventWrap">
-	<div class="wrap_EventArea">
-		<div class="imageDiv">
-			<img alt="윙크 학습지 이벤트 상세보기 참고" src="/img_1606897445691.png" width="100%" />
-			<div class="txtHide">
-				<h1>이제 곧 한 살 더 먹는 우리 아이를 위해 윙크의 무료 학습을 부담없이 신청해보세요!</h1>
-				<h2>윙크 무료 학습 혜택</h2>
-				<p>윙크 무료 학습 패키지 한글ㆍ수학ㆍ영어 교재 + 교구</p>
-				<p>* 배송비, 반납 택배비 모두 무료</p>
-				<ul>
-					<li>한글/수학 교재와 영어 이야기책 제공</li>
-					<li>학습 단계에 따라 맞춤형으로 제공되는 교육 콘텐츠</li>
-					<li>
-						학습 효과를 극대화하는 전용 학습기
-						<p>* 6일 이용 후 연장하지 않을 경우 학습기를 무료로 반납하시면 됩니다. 걱정하지 말고 신청하세요!</p>
-					</li>
-					<li>윙크 선생님의 실시간 화상 코칭 또는 엄마표 확인 학습 중 선택 가능</li>
-				</ul>
-				<h2>특별 추가 혜택!</h2>
-				<p>윙크 캐릭터와 함께 창의력 UP! 색칠공부&스티커북(스티커 45종)</p>
-				
-			</div>
-		</div>
-	</div>
-</div>
- 
+#box2 {
+  box-pack : center;
+  -webkit-box-pack:center;
+-moz-box-pack:center;
+}
+
+#box3 {
+  box-pack : end;
+  -webkit-box-pack:end;
+-moz-box-pack:end;
+}
